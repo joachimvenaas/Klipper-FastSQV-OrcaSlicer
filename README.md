@@ -2,7 +2,7 @@
 
 :warning: Use at your own risk :warning:
 
-This is a set of postprocessing script for only [SuperSlicer](https://github.com/supermerill/SuperSlicer) to accelerate the infills and perimeters printing speed using the  [Klipper](https://www.klipper3d.org/)'s Square Corner Velocity (SQV) feature.
+This is a set of postprocessing script for only OrcaSclier to accelerate the gyroid infills and perimeters printing speed using the  [Klipper](https://www.klipper3d.org/)'s Square Corner Velocity (SQV) feature.
 
 The post-processing script will read the .gcode file to put the necessary macro command to modify the value of SQV for infills and perimeters keeping everything else as the default SQV value that the user has set in the `printer.cfg`. Since that the infills and internal perimeters do not affect the quality of the print, thus the reason why I would want to add the features of adjusting each SQV value for different feature of type to print faster. However, increasing the SQV value too high will remove details on the surface and rounded the corner of the print.
 
